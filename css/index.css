@@ -1,0 +1,196 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	height: auto;
+	box-sizing: border-box;
+}
+
+body{
+	width: 80%;
+	background-color: #3F4951;
+}
+
+.container{
+	background: #4F687A;
+}
+
+/*------------------------------HEADER--------------------------------*/
+
+header{
+	background-color: white;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	height: 400px;
+}
+
+#desarrollo{
+	width: 100%;
+	min-width: 780px;
+
+}
+
+
+
+
+
+/*------------------------------MENU--------------------------------*/
+
+.menu{
+	width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	transition: 2s;
+	
+
+}
+
+ul{
+	list-style-type: none;
+
+
+
+}
+
+.nav li a{
+
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	transition: 3s;
+	
+}
+
+.nav li a:hover{
+	background-color: #434343;
+	transition: 0.2s;
+}
+.nav > li{
+	float: left;
+	margin: 0 auto;
+	width: 20%;
+	text-align: center;
+	transition: 0.2s;
+	
+}
+
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 14%;
+	
+
+}
+
+.nav li:hover > ul{
+	display: block;
+	transition: 3s;
+}
+
+
+
+
+
+/*------------------------------CICLO SOFTWARE--------------------------------*/
+
+.ciclosoftware{
+	margin: 0 auto;
+	padding: 40px;
+	width: 75%;
+	margin-top: 150px;
+	background-color: black;
+	border-radius: 35%;
+	align-items: center;
+	align-content: center;
+	
+}
+
+.imgsoft{
+	width: 100%;
+	margin: 0 auto;
+	padding: 4%;
+
+}
+
+
+/*--------------------------FOOTER-----------------------------------*/
+
+footer{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 120px;
+	background-color: black;
+	height: auto;
+
+
+}
+
+.ft{
+	font-size: 1.5rem;
+	text-align: center;
+	line-height: 65px;
+	color: white;	
+
+}
+
+.linkedin{
+	text-decoration: none;
+	color: orange;
+}
+
+@media screen and (max-width: 900px){
+
+	.nav{
+		display: block;
+		width: 100%;
+		font-size: 8px;
+	}
+
+	.nav ul{
+		display: block;
+		position: absolute;
+
+	}
+
+	.nav ul li{
+			font-size: 11px;
+	}
+
+	.ft{
+		font-size: 13px;
+	}
+
+	.ciclosoftware{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 300px){
+
+	.nav{
+		display: block;
+		width: 100%;
+
+		
+	}
+
+	.nav ul{
+		display: block;
+		
+	}
+	.nav ul li{
+			font-size: 4px;
+	}
+
+	.ciclosoftware{
+		display: none;
+	}
+}
+
+
