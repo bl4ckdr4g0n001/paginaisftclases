@@ -47,7 +47,7 @@ header{
 	height: 40px;
 	font-family: Arial;
 	color: white;
-	background-image: url("btn/boton.png");
+	background-image: url("../btn/boton.png");
 	text-align: center;
 	display: inline-flex;
 	border: outset 2px grey;
